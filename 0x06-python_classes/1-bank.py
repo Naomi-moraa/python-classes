@@ -6,11 +6,7 @@ class BankAccount:
     """Class that defines a bank account"""
 
     def __init__(self, name, account_number):
-        """Initialize a new bank account
-        Args:
-            name (str): account holder's name
-            account_number (str): account number
-        """
-        self.__name = name
-        self.__account_number = account_number
-        self.__balance = 0
+        
+        self._name = name
+        self._account_number = account_number
+        self._balance = 0
